@@ -1,0 +1,20 @@
+
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Java Main",
+			"type": "shell",
+			"command": "java",
+			"args": [
+				"-cp",
+				".\\bin",
+				"com.Perpustakaan.Main",
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
